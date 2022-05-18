@@ -1,0 +1,77 @@
+.menu{
+    float: left;
+    list-style: none;
+    margin-left: 8%;
+    margin-top: 11px;
+    width: 70%;
+    }
+/*todda parte do menu */
+
+
+.menu li{  
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 10px 14px;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #0c0c0c;
+    padding: 8px;
+    border: 1px ;
+ }
+
+.menu li a{  text-decoration: none; display: block;}
+
+/*icones que estao encima */
+
+.ma{
+
+    width: 10px;
+    margin-left:5px ;
+    position: absolute;
+ }
+ 
+
+
+/*.menu li a:hover{ background: rgb(221, 7, 7);}*/
+
+/*aqui e o submenur */
+
+.menu li ul{
+    position: absolute;
+    left: 0;
+    margin-left: -90%;
+    display: none;
+    background: rgb(255, 255, 255);
+    box-shadow: -1px 0px 20px #dadae6;
+    width: 200%;
+    border-radius: 10px;
+    margin-top: 5%;
+    
+}
+
+
+
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+    display: block;
+}
+
+/* segundo menu */ 
+
+.segundoMenu li {
+
+    margin-left: 5%;
+   
+}
+
+.segundoMenu li ul{
+   margin-left: 10%;
+   width: 130%;
+}
+

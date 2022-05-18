@@ -1,0 +1,33 @@
+.login {
+    position: absolute;
+    margin: -53.5% 0 0 240%;
+
+}
+
+.login a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.cadastro {
+    font-size: 12pt;
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    margin: -56.6% 0 0 260%;
+    border-width: 0%;
+    height: 48%;
+    border: solid 2px;
+    border-color: rgb(116, 116, 116);
+    border-radius: 20px;
+    padding-top:3%;
+   
+   
+   
+
+}
+.cadastro a{
+    color: black;
+    text-decoration: none;
+}
