@@ -1,26 +1,37 @@
 import Login from "../elementos/login"
 import style from "./home.css"
+import fto from "../../images/image-hero-desktop.png"
 
 
 function Home(params) {
-    return(
-        <div className={style}>
-             <div className="corpo">
-               
-              <Login  to = './login' text='Entrar'/>
-              <Login to='./cadastro' texto='Cria uma Conta' />
+  return (
+    <div className={style}>
+      <nav className="naveLogin">
 
-           <br/>
+        <Login to='./login' text='Entrar' />
+        <Login to='./cadastro' texto='Cria uma Conta' />
 
+        <br />
+      </nav>
 
-             <h1>
-              Oi seja bem  vindo a paginina iniciaol 
-            </h1>
-            <p>oi</p>
-             </div>
-        
-        </div>
-    )
+      <article>
+        <section className="corpo">
+          <h1>
+            Faça um trabalho <br /> remoto
+          </h1>
+          <p>sincronize sua equipe, independentemente de sua  <br />
+            localização, agilize os processos crie rituais de <br />
+            equipe e veja a produtividade dispara</p>
+
+        </section>
+
+        <aside className="dir">
+         <img src={fto} alt="" />
+        </aside>
+      </article>
+
+    </div>
+  )
 }
 
 export default Home

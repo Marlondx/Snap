@@ -11,14 +11,13 @@ function Nave(params) {
     return (
         <div className={style}>
 
-          <Link to='/'><h1 style={{
-                width: '6%', margin: '19px 0 0 -2%', position: 'absolute',color:"black"
-            }}>snap </h1></Link>
-
+            <Link to='/'>   <img src="../src/images/logo.svg" alt="" style={{
+                width: '6%', margin: '25px 0 0 -58%', position: 'absolute', color: "black"
+            }} /></Link>
             <nav className="menu" >
-               <ul>
+                <ul>
                     <li>
-                        
+
                         <Link to="#"> Recursos  <AiOutlineDown className="ma" /> </Link>
 
                         <ul>

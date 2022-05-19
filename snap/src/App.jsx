@@ -5,6 +5,7 @@ import Home from './componentes/paginas/home'
 import Nave from './componentes/header/nav'
 import PgLogin from './componentes/paginas/login'
 import Cadastro from './componentes/paginas/cadastro'
+import Footer from './componentes/footer/fooder'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,20 +26,10 @@ function App() {
                 <Route path="/cadastro" element={<Cadastro/>}></Route>
               </Routes>
             </Container>
-          <section>
-         
-          </section>
-
-          <aside>
-
-          </aside>
-
         </article>
 
-
-
-        <footer>
-
+       <footer>
+          <Footer/>
         </footer>
 
       </Router>

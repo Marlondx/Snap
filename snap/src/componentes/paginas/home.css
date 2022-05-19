@@ -1,11 +1,26 @@
-.corpo{
-    font-size: 14pt;
-    position: absolute;
-    display: block;
-    margin-top: 20%;
+
+/*parte esquerta do site */
+
+.corpo h1{ 
+    display: flex;
+  
+    font-size:48pt;
+    margin: 12% 0 0 12.75%;
+}
+.corpo p{
+    position:absolute;
+    margin:5% 0 0 13%;
 }
 
-.log{
-    background-color: red;
-    color: red;
+
+/* parte direita do site */
+
+.dir{  
+    float: left;
+    margin:-15% 0 0 60%;
+
+    
+}
+.dir img{
+    width: 70%;   
 }

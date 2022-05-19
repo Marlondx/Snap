@@ -1,6 +1,6 @@
 .login {
     position: absolute;
-    margin: -53.5% 0 0 240%;
+    margin: 2.5%;
 
 }
 
@@ -13,15 +13,16 @@
 .cadastro {
     font-size: 12pt;
     text-align: center;
-    width: 30%;
+    width: 9%;
     position: absolute;
-    margin: -56.6% 0 0 260%;
+    margin:1.5% 0 0 9%;
     border-width: 0%;
-    height: 48%;
+    height: 4%;
     border: solid 2px;
     border-color: rgb(116, 116, 116);
-    border-radius: 20px;
-    padding-top:3%;
+    border-radius: 17px;
+    padding-top: 15px;
+    
    
    
    
