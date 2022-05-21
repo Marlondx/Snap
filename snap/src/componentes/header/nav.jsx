@@ -11,9 +11,7 @@ function Nave(params) {
     return (
         <div className={style}>
 
-            <Link to='/'>   <img src="../src/images/logo.svg" alt="" style={{
-                width: '6%', margin: '25px 0 0 -58%', position: 'absolute', color: "black"
-            }} /></Link>
+             <div className="text"> <h1> <Link to='/'> Snap </Link></h1></div>
             <nav className="menu" >
                 <ul>
                     <li>
