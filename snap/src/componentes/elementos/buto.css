@@ -1,0 +1,41 @@
+/*Aqui esta o butão começar do site */
+.but{
+    position: absolute;
+    top: 31em;
+    left:-2em;
+    margin:0 0 0 15%;
+
+ 
+}
+.but button{
+    cursor: pointer;
+    height: 4em;
+    width: 12em;
+    border-radius: 13px;
+    background-color: black;
+    color: white;
+    font-size: 11pt;
+}
+.but button:hover{
+   background-color: rgba(255, 255, 255, 0);
+   color: black;
+}
+.but:hover, a:hover{
+  
+  background-color: rgba(255, 255, 255, 0);
+   
+}
+.but a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+    
+}
+.but a:hover{
+    color: black;
+    background-color: red;
+    height: 15pt;
+    
+}
