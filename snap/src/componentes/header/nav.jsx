@@ -1,10 +1,8 @@
 
 import style from "./nave.css"
-import Loguin from "./login"
 import { AiOutlineDown } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
-import Home from "../paginas/home"
-import Container from "../elementos/container"
+
 
 /* aqui e a nossa nave menu superior e o submenus também lnk para outra pagina */
 function Nave(params) {

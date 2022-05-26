@@ -1,4 +1,4 @@
-.login1{
+.hom{
     width: 40%;
     height: 60%;
     font-size: 19pt;
@@ -11,28 +11,12 @@
     margin:10% 0 0 30%;
     border-radius: 15px;
 }
-.login1 section{
-    margin-top: 20%;
-}
-.login1 h1{
+.hom h1{
     display: block;
-    font-size: 30pt;
-    margin:-10% 0 5% -2%;
+    font-size: 28pt;
+    margin:20% 0 5% -1%;
 }
-.login1 label{
-  display: block;
-  margin-top: 2%;
-}
-
-.login1 input{
-    width: 60%;
-    height: 3.5em;
-    border-radius: 13px;
-    font-size: 11pt;
-}
-
-
-.login1 button{
+.hom button{
     margin-top: 2%;
     font-size: 15px;
     color: white;
@@ -41,12 +25,4 @@
     border-radius: 13px;
     background-color: rgb(127, 30, 218);
     padding-left: -10%;
-}
-
-.erro {
-    color:  red;
-}
-.login1 a{
-    text-decoration: none;
-    color: blueviolet;
 }

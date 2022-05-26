@@ -1,6 +1,6 @@
 .text{
    position: absolute;
-   margin: 1.2% 0 0 2%;
+   margin: 1.2% 0 0 -1.5%;
 
     width:7%;
   
@@ -21,7 +21,7 @@
     margin-top: 11px;
     width: 70%;
     }
-/*todda parte do menu */
+/*toda parte do menu */
 
 
 .menu li{  
@@ -86,7 +86,7 @@
 }
 
 .segundoMenu li ul{
-   margin-left: 10%;
+   margin-left: -40%;
    width: 130%;
 }
 

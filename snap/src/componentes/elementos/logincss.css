@@ -22,11 +22,12 @@
     border-color: rgb(116, 116, 116);
     border-radius: 17px;
     padding-top: 15px;
-    
-   
-   
-   
-
+}
+@media (max-width:1366px) {
+    .cadastro {
+        font-size: 10pt;
+       
+    }
 }
 .cadastro a{
     color: black;

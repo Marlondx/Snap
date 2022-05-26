@@ -1,12 +1,19 @@
-import {Link} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 import style from './buto.css'
+import React from 'react'
 
 function Button () {
+    const navegar = useNavigate()
+
+    function Entrar (){
+        
+        navegar ("/login")
+    }
     return(
         <div className={style}>
             <label className='but'>
             
-                <button><b>Começar</b> </button>
+                <button onClick={Entrar}><b>Começar</b> </button>
             </label>
         </div>
     )

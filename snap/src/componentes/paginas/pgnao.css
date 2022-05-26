@@ -1,0 +1,15 @@
+.pg{
+    width: 40%;
+    height: 60%;
+    font-size: 19pt;
+    background-color: rgba(182, 182, 182, 0);
+    color :rgb(0, 0, 0);
+    position: absolute;
+    display: block;
+    text-align:center;
+    margin:20% 0 0 30%;
+    border-radius: 15px;
+}
+.pg h1{
+    font-size: 25pt;
+}

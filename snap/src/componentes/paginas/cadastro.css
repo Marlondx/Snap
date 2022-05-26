@@ -1,4 +1,4 @@
-.login1{
+.cadastro1{
     width: 40%;
     height: 60%;
     font-size: 19pt;
@@ -11,20 +11,20 @@
     margin:10% 0 0 30%;
     border-radius: 15px;
 }
-.login1 section{
+.cadastro1 section{
     margin-top: 20%;
 }
-.login1 h1{
+.cadastro1 h1{
     display: block;
     font-size: 30pt;
-    margin:-10% 0 5% -2%;
+    margin:7% 0 5% -5%;
 }
-.login1 label{
+.cadastro1 label{
   display: block;
   margin-top: 2%;
 }
 
-.login1 input{
+.cadastro1 input{
     width: 60%;
     height: 3.5em;
     border-radius: 13px;
@@ -32,7 +32,7 @@
 }
 
 
-.login1 button{
+.cadastro1 button{
     margin-top: 2%;
     font-size: 15px;
     color: white;
@@ -46,7 +46,7 @@
 .erro {
     color:  red;
 }
-.login1 a{
+.cadastro1 a{
     text-decoration: none;
     color: blueviolet;
 }
