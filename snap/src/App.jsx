@@ -1,3 +1,6 @@
+// Autor Marlon dos Santos 
+// pagina principal do Programa 
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Container from './componentes/elementos/container'
 import Home from './componentes/paginas/home'
