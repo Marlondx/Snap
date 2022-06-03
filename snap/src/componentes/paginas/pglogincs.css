@@ -1,50 +1,65 @@
 .login1{
+    display: flex;
+    float: left;
     width: 40%;
     height: 60%;
     font-size: 19pt;
     background-color: rgb(24, 24, 24);
     color :rgb(255, 255, 255);
     font-size: 14pt;
-    position: absolute;
-    display: block;
     text-align:center;
-    margin:10% 0 0 30%;
+    margin:8% 0 9% 30%;
     border-radius: 15px;
 }
 .login1 section{
+    display: block;
     margin-top: 20%;
+    margin:10% 0 10% 23%;
+   
 }
 .login1 h1{
-    display: block;
+    display: flex;
+    margin:auto;
     font-size: 30pt;
-    margin:-10% 0 5% -2%;
+    margin:10% 0 10% -5%;
+  
 }
 .login1 label{
-  display: block;
   margin-top: 2%;
 }
 
 .login1 input{
-    width: 60%;
+    display: flex;
+    width: 90%;
     height: 3.5em;
-    border-radius: 13px;
+    border-radius: 17px;
     font-size: 11pt;
+   
 }
 
 
 .login1 button{
-    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
     font-size: 15px;
     color: white;
-    width: 60%;
+    width: 92%;
     height: 3.5em;
-    border-radius: 13px;
+    border-radius: 17px;
     background-color: rgb(127, 30, 218);
     padding-left: -10%;
+   
 }
 
 .erro {
     color:  red;
+}
+.login1 label{
+    display: flex;
+    
+    width: 120%;
+    
 }
 .login1 a{
     text-decoration: none;

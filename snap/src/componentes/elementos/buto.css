@@ -9,7 +9,7 @@
     width: 12em;
     border-radius: 13px;
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 11pt;
     margin: 6% 0 0 12.8% ;
 }
@@ -40,5 +40,14 @@
 @media (max-width: 1400px) {
     .but{
         margin: -3% 0 0 15%;
+    }
+}
+
+@media (max-width:380px) {
+
+    .but button{
+        margin: 5% 0 0 28%;
+        
+      
     }
 }

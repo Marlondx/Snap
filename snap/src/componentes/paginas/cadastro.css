@@ -1,14 +1,15 @@
 .cadastro1{
+    display: flex;
+    float: left;
     width: 40%;
     height: 60%;
     font-size: 19pt;
     background-color: rgb(24, 24, 24);
     color :rgb(255, 255, 255);
     font-size: 14pt;
-    position: absolute;
     display: block;
     text-align:center;
-    margin:10% 0 0 30%;
+    margin:10% 0 9% 30%;
     border-radius: 15px;
 }
 .cadastro1 section{

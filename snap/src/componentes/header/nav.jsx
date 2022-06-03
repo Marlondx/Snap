@@ -10,7 +10,7 @@ function Nave(params) {
         <div className={style}>
 
              <div className="text"> <h1> <Link to='/'> Snap </Link></h1></div>
-            <nav className="menu" >
+            <nav className="menu" > 
                 <ul>
                     <li>
 

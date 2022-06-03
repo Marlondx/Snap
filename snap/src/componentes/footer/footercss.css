@@ -14,3 +14,17 @@
 }
 
 
+@media (max-width:380px) {
+    .rodape{
+        display: flex;
+        left: 1%;
+        margin:2% 0 0 10%;
+        width: 40%;
+    } 
+    .rodape img{
+        padding-left: 5%;
+        margin-top: 30%;
+        height: 1.1em;
+       
+    }
+}
