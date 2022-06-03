@@ -74,6 +74,42 @@
     }
 }
 
+@media (max-width:530px) {
+    .corpo h1{
+        text-align:center;
+        font-size:22pt;
+        margin: 80% 0 0 15%;
+        width: 70%;
+    } 
+
+    .corpo p{
+        font-size: 11pt;
+        display: flex;
+        margin:3% 0 0 1%;
+        line-height: 25px;
+        text-align:center;
+    }
+    .corpo{
+       
+    }
+    .dir{
+        position: absolute;  
+        display: flex;
+        justify-content: center;
+        width: 55%;
+        margin-top: -115%;
+        margin-left: 20%;
+       
+    }
+    img#desktop{
+        display: none;
+    } 
+    img#mobile{
+        display:flex;
+        width: 150%;
+        margin-top:-30%;
+    }
+}
 @media (max-width:420px) {
     .corpo h1{
         text-align:center;
