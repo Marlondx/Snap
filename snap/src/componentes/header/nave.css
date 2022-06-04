@@ -107,5 +107,21 @@
         background-color: red;
         }
 }
+@media (max-width:420px) {
+    .text{
+        font-size:13pt ;
+        margin: 3% 0 0 -96%;
+        width:25%;   
+    }
+    .menu{
+        display: flex;
+        float: left;
+        list-style: none;
+        margin-left: 100%;
+        margin-top: 11px;
+        width: 40%;
+        background-color: red;
+        }
+}
 
 /* lembra para color a imagem temque colocar o ponto tambem  */

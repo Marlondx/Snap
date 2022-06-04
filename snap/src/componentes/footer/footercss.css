@@ -28,3 +28,16 @@
        
     }
 }
+
+@media (max-width:420px) {
+    .rodape img{
+        margin:40% 0 0 0;
+        height: 2.2em;   
+    }
+    .rodape{
+        display: flex;
+        left: 1%;
+        margin:2% 0 0 1%;
+        width: 40%;
+}
+}

@@ -51,3 +51,8 @@
       
     }
 }
+@media (max-width:420px) {
+     .but button{
+         margin: 5% 0 0 38%;
+     }
+}
