@@ -51,8 +51,8 @@
       
     }
 }
-@media (max-width:420px) {
+@media (max-width:530px) {
      .but button{
-         margin: 5% 0 0 38%;
+         margin: 5% 0 0 29%;
      }
 }

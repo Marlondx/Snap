@@ -75,26 +75,30 @@
 @media (max-width:530px) {
     .corpo h1{
         text-align:center;
-        font-size:22pt;
-        margin: 80% 0 0 15%;
-        width: 70%;
+        justify-content: center;
+        font-size:25pt;
+        margin: 100% 0 0 1%;
+        width: 90%;
+       
     } 
 
     .corpo p{
-        font-size: 11pt;
+        font-size: 14pt;
+        width: 120%;
         display: flex;
-        margin:3% 0 0 1%;
+        justify-content: center;
+        margin:5% 0 0 -10%;
         line-height: 25px;
         text-align:center;
+        
     }
-    
+   
     .dir{
-        position: absolute;  
+        position: absolute;
         display: flex;
         justify-content: center;
         width: 55%;
-        margin-top: -115%;
-        margin-left: 20%;
+        margin:-120% 0 0 20%;
        
     }
     img#desktop{
@@ -102,10 +106,11 @@
     } 
     img#mobile{
         display:flex;
-        width: 150%;
-        margin-top:-30%;
+        width: 182%;
+        margin:-30% 0 0 7%;
     }
 }
+
 @media (max-width:420px) {
 
     .corpo h1{
