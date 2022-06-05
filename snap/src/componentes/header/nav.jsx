@@ -2,14 +2,15 @@
 import style from "./nave.css"
 import { AiOutlineDown } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+import logo from '../../images/logo.svg'
 
 
 /* aqui e a nossa nave menu superior e o submenus também lnk para outra pagina */
 function Nave(params) {
     return (
         <div className={style}>
-
-             <div className="text"> <h1> <Link to='/'> Snap </Link></h1></div>
+            <Link to ="/"> <img className="text" src={logo} alt="" /></Link> 
+             {/* <div className="text"> <h1> <Link to='/'> Snap </Link></h1></div> */}
             <nav className="menu" > 
                 <ul>
                     <li>
