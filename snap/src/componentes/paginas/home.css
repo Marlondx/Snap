@@ -30,6 +30,9 @@
     width: 55%;   
     margin-top: -62%;
 }
+img#mobile{
+  display: none;
+}
 @media (max-width:1600px) {
      img#mobile{
          display: none;
@@ -78,7 +81,7 @@
         position: absolute;
         display: flex;
         width: 40%;
-        margin:-86% 0 0 30%;
+        margin:-92% 0 0 30%;
     
     }
     img#mobile{
