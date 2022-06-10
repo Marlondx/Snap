@@ -29,15 +29,16 @@
     }
 }
 
-@media (max-width:530px) {
+@media (max-width:600px) {
     .rodape img{
-        margin:40% 0 0 0;
-        height: 2.2em;   
+        margin:-3% 0 0 6%;
+        height: 1.7em;   
+       
     }
     .rodape{
         display: flex;
         left: 1%;
-        margin:20% 0 0 1%;
+        margin:10% 0 0 1%;
         width: 40%;
 }
 }

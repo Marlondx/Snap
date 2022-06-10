@@ -1,3 +1,6 @@
+#navemenu{
+    display: flex;
+}
 .login {
     position: absolute;
     margin: 2.5%;
@@ -32,4 +35,11 @@
 .cadastro a{
     color: black;
     text-decoration: none;
+}
+/* Estilizado celular */
+@media (max-width:600px){
+    #navmenu{
+        display: none;
+    }
+
 }

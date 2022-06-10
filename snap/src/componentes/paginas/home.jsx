@@ -10,7 +10,7 @@ function Home(params) {
   return (
     <div className={style}>
       <div className="mudar">
-        <h1></h1>
+        
       </div>
       <nav className="naveLogin">
 

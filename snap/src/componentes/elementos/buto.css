@@ -43,16 +43,13 @@
     }
 }
 
-@media (max-width:380px) {
+@media (max-width:600px) {
 
     .but button{
-        margin: 5% 0 0 28%;
+        
+        margin: 5% 0 0 35%;
         
       
     }
 }
-@media (max-width:530px) {
-     .but button{
-         margin: 5% 0 0 29%;
-     }
-}
+

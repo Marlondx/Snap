@@ -2,15 +2,29 @@
 import style from "./nave.css"
 import { AiOutlineDown } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+import menu from '../../images/icon-menu.svg'
+
 
 
 /* aqui e a nossa nave menu superior e o submenus também lnk para outra pagina */
 function Nave(params) {
-    return (
-        <div className={style}>
 
-             <div className="text"> <h1> <Link to='/'> Snap </Link></h1></div>
-            <nav className="menu" > 
+    function enviar() {
+        const env = document.getElementsByClassName("menu")
+        const res =document.getElementById("res")
+
+        res.style.color = 'red'
+
+    }
+
+    return (
+        <div className={style}>  
+           
+            <div id="text"> <h1> <Link to='/'> Snap </Link></h1></div>
+            {/* <span> <img className="menuico" src={menu} alt="Snap" srcset=""  style={{margin:"0 0 0 90%"}} /></span> */}
+            
+
+            <nav className="menu" >
                 <ul>
                     <li>
 
@@ -54,7 +68,9 @@ function Nave(params) {
 
 
             </nav>
-
+            {/* para  Mobile */}
+            <div id="res">res  
+            <button onClick={enviar}> click aqui </button></div>
         </div>
     )
 }

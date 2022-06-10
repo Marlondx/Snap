@@ -1,5 +1,5 @@
-.text{
-   position: absolute;
+#text{
+   position: fixed;
    margin: 1.3% 0 0 -2%;
 
     width:7%;
@@ -7,7 +7,7 @@
      
 }
 
-.text a{
+#text a{
    
     color: black;
     text-decoration: none;
@@ -89,25 +89,51 @@
    margin-left: -40%;
    width: 130%;
 }
+.menuico{
+    display: none;
+}
+
 /* parte mobile */
-@media (max-width:380px) {
-    .text{
-        font-size:10pt ;
-        margin: 4% 0 0 -95%;
-        width:25%;   
-         
-     }
-     .menu{
+@media (max-width:600px) {
+    #text{
         display: flex;
+        font-size:12pt ;
+        width:25%;
+        position:relative;
+        margin-left:-6%;
+    }
+    #res{
+        position: relative;
+        top: -1em;
+        left: 22em;
+        background-color: red;
+        display: flex;
+        justify-content: right;
+        width: 20vh;
+    }
+    nav.menu{
+        
+        display:none;
         float: left;
         list-style: none;
-        margin-left: 100%;
+        margin-left: 10%;
         margin-top: 11px;
         width: 40%;
         background-color: red;
+        
+        }
+
+      
+        .menuico{
+            display: flex; 
+            position: absolute;
+            left: 1%;
+            
+            
         }
 }
-@media (max-width:530px) {
+
+/* @media (max-width:530px) {
     .text{
         font-size:13pt ;
         margin: 3% 0 0 -96%;
@@ -117,13 +143,22 @@
         display: flex;
         float: left;
         list-style: none;
-        margin-left: 100%;
+        margin-left: 10%;
         margin-top: 11px;
         width: 40%;
         background-color: red;
         
         }
-}
+
+      
+        .menuico{
+            display: flex; 
+            position: absolute;
+            left: 1%;
+            
+            
+        }
+} */
 
 
 /* lembra para color a imagem temque colocar o ponto tambem  */
