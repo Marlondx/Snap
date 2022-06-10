@@ -78,7 +78,7 @@ img#mobile{
 @media (max-width:600px) {
     .dir{
        
-        position: absolute;
+       
         display: flex;
         width: 40%;
         margin:-92% 0 0 30%;
@@ -89,6 +89,7 @@ img#mobile{
         display:flex;
         width: 250%;
         margin:-100% 0 0 -3%;
+        
     }
     .corpo h1{
         
@@ -155,8 +156,10 @@ img#mobile{
         display: none;
     } 
     img#mobile{
+       
         display:flex;
         width: 220%;
         margin:-30% 0 0 40%;
+       
     }
 }

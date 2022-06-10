@@ -93,7 +93,11 @@
     display: none;
 }
 
+#res{
+    display:none;
+}
 /* parte mobile */
+
 @media (max-width:600px) {
     #text{
         display: flex;
@@ -103,26 +107,29 @@
         margin-left:-6%;
     }
     #res{
+        
         position: relative;
-        top: -1em;
-        left: 22em;
-        background-color: red;
+        top: -3em;
+        left: 25em;
         display: flex;
-        justify-content: right;
+        justify-content: center;
         width: 20vh;
     }
-    nav.menu{
-        
+    #menuul{
+        position: absolute;
         display:none;
         float: left;
         list-style: none;
-        margin-left: 10%;
+        margin-left: 45%;
         margin-top: 11px;
         width: 40%;
-        background-color: red;
+        height: 20em;
+        background-color: rgb(94, 12, 87);
         
         }
-
+    .menu.active #menuul{
+        display: block;
+    }
       
         .menuico{
             display: flex; 

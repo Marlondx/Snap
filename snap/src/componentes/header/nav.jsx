@@ -7,25 +7,32 @@ import menu from '../../images/icon-menu.svg'
 
 
 /* aqui e a nossa nave menu superior e o submenus também lnk para outra pagina */
+
+
+
+
+
+function cotmobile() {
+    const nave = document.querySelector('.menu');
+
+    nave.classList.toggle('active')
+
+
+
+}
+
+
 function Nave(params) {
 
-    function enviar() {
-        const env = document.getElementsByClassName("menu")
-        const res =document.getElementById("res")
-
-        res.style.color = 'red'
-
-    }
-
     return (
-        <div className={style}>  
-           
+        <div className={style}>
+
             <div id="text"> <h1> <Link to='/'> Snap </Link></h1></div>
             {/* <span> <img className="menuico" src={menu} alt="Snap" srcset=""  style={{margin:"0 0 0 90%"}} /></span> */}
-            
 
-            <nav className="menu" >
-                <ul>
+
+            <nav className="menu">
+                <ul id="menuul">
                     <li>
 
                         <Link to="#"> Recursos  <AiOutlineDown className="ma" /> </Link>
@@ -68,11 +75,18 @@ function Nave(params) {
 
 
             </nav>
+
             {/* para  Mobile */}
-            <div id="res">res  
-            <button onClick={enviar}> click aqui </button></div>
+
+            <button onClick={cotmobile} id="res"> Menu </button>
+         
+
         </div>
+
     )
+
+
 }
+
 
 export default Nave
