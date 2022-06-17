@@ -78,7 +78,7 @@ function Nave(params) {
 
             {/* para  Mobile */}
 
-            <button onClick={cotmobile} id="res"> Menu </button>
+            <button onClick={cotmobile} id="res"> <span id="ham"></span> </button>
          
 
         </div>
