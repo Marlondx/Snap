@@ -4,6 +4,7 @@ import Input from "../compont/input/index"
 import Buttoon from "../compont/button/index"
 import { Link , useNavigate } from "react-router-dom"
 import useAuth from "../../bancodeDados/hooks/userAuth"
+import iconeladoes from "../../images/iconeeswuerdo.png"
 
 function PgLogin () {
     const {signin } = useAuth()   
@@ -29,7 +30,7 @@ function PgLogin () {
     }
 
     return (
-    
+ 
     <div className={style} >
 
         <article className="login1">
@@ -60,6 +61,8 @@ function PgLogin () {
           
       
         </article>
+
+        <img src={iconeladoes} alt="" />
     </div>
     
     )

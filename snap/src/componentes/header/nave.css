@@ -101,7 +101,7 @@
 @media (max-width:600px) {
     #text{
         display: flex;
-        font-size:12pt ;
+        font-size:10pt ;
         width:25%;
         position:relative;
         margin-left:-6%;
@@ -123,7 +123,7 @@
     }
     #ham{
         position: relative;
-        top:-2.7em; left: 59em;
+        top:-2.7em; left: 65em;
         display: block;
         border-top: 2px solid;
         width: 30px;
@@ -179,6 +179,20 @@
         display: block;
         background-color: red;
      } 
+}
+
+@media (max-width : 530px) {
+    #ham{
+        position: relative;
+        top:-2.7em; left: 57em;
+        display: block;
+        border-top: 2px solid;
+        width: 25px;    
+}
+
+     #ham::after, #ham::before{  
+        width: 25px;
+     }
 }
 
 /* @media (max-width:530px) {

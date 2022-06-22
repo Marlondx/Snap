@@ -44,7 +44,6 @@
 }
 
 @media (max-width:600px) {
-
     .but button{
         
         margin: 5% 0 0 35%;
@@ -52,4 +51,10 @@
       
     }
 }
-
+@media (max-width:530px) {
+    .but button{
+        height: 3.5em;
+        width: 12em;
+        margin: 5% 0 0 33%;
+    }
+}

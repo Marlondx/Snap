@@ -32,13 +32,21 @@
 @media (max-width:600px) {
     .rodape img{
         margin:130% 0 0 10%;
-        height: 1.5em;   
+        height: 1.1em;   
        
     }
     .rodape{
         display: flex;
         left: 1%;
-        margin:10% 0 2% -2%;
+        margin:10% 0 2% 10%;
         width: 40%;
+        
 }
+}
+@media (max-width: 530px) {
+    .rodape img{
+        margin:130% 0 0 10%;
+        height: 1.0em;   
+       
+    }
 }
