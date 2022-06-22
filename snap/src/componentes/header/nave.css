@@ -105,6 +105,7 @@
         width:25%;
         position:relative;
         margin-left:6%;
+        margin-top:3%
     }
     #res{
         display: flex;
@@ -184,7 +185,7 @@
 @media (max-width : 530px) {
     #ham{
         position: relative;
-        top:-2.7em; left: 65em;
+        top:-2.7em; left: 68em;
         display: block;
         border-top: 2px solid;
         width: 25px;    
