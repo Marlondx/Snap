@@ -1,6 +1,6 @@
 #text{
    position: fixed;
-   margin: 1.3% 0 0 -2%;
+   margin: 1.3% 0 0 2%;
 
     width:7%;
   
@@ -104,7 +104,7 @@
         font-size:10pt ;
         width:25%;
         position:relative;
-        margin-left:-6%;
+        margin-left:6%;
     }
     #res{
         display: flex;
@@ -184,7 +184,7 @@
 @media (max-width : 530px) {
     #ham{
         position: relative;
-        top:-2.7em; left: 57em;
+        top:-2.7em; left: 65em;
         display: block;
         border-top: 2px solid;
         width: 25px;    
