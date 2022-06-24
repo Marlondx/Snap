@@ -61,8 +61,6 @@ function PgLogin () {
           
       
         </article>
-
-        <img src={iconeladoes} alt="" />
     </div>
     
     )

@@ -65,3 +65,14 @@
     text-decoration: none;
     color: blueviolet;
 }
+
+@media (max-width:600px){
+    .login1{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .login1 section{
+        margin-left: 18%;
+    }
+}
+

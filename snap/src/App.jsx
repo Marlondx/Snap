@@ -22,36 +22,37 @@ function App() {
   }
 
   return (
-    <div>
-
-      <Router>
-        <header>
-          <Nave />
-
-        </header>
-        <article> 
-          <AuthProvider>
-            <Container>
-              <Routes>
-                <Route path='/' exact='true' element={<Home />}></Route>
-                <Route path='/login' element={<PgLogin />}></Route>
-                <Route exact path="/pghome" element={<Private Item={PgHome}/>}></Route>
-                <Route path="/cadastro" element={<Cadastro/>}></Route>
-                <Route path= "*" element={<PgnaoEncontrada/>}></Route>
-               
-              </Routes>
-            </Container>
-            </AuthProvider>
-        </article>
-
-       <footer>
-          <Footer/>
-        </footer>
-
-      </Router>
-
-
-    </div>
+    
+        <div>
+        <Router>
+          <header>
+            <Nave />
+  
+   
+          </header>
+          <article> 
+            <AuthProvider>
+              <Container>
+                <Routes>
+                  <Route path='/' exact='true' element={<Home />}></Route>
+                  <Route path='/login' element={<PgLogin />}></Route>
+                  <Route exact path="/pghome" element={<Private Item={PgHome}/>}></Route>
+                  <Route path="/cadastro" element={<Cadastro/>}></Route>
+                  <Route path= "*" element={<PgnaoEncontrada/>}></Route>
+                 
+                </Routes>
+              </Container>
+              </AuthProvider>
+          </article>
+  
+         <footer>
+            <Footer/>
+          </footer>
+  
+        </Router>
+  
+  
+      </div>
   )
 }
 
