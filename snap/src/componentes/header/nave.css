@@ -96,6 +96,9 @@
 #res{
     display:none;
 }
+.logf{
+   display: none;
+}
 /* parte mobile */
 
 @media (max-width:600px) {
@@ -113,7 +116,7 @@
         display: flex;
         justify-content: center;
         width: 20vh;
-        margin-left:-100%;
+        margin-left:-140%;
         cursor: pointer;
         background-color: #fafafa;
         
@@ -123,7 +126,62 @@
         height:130vh;
         visibility: visible;
         overflow-y: auto;
+      
     }
+
+    #menuul li{
+        width: 30vh;
+        margin: 10% 0 0 4%;
+        display: block;
+        justify-content: center;
+       
+     } 
+    /* parte do login */
+    .logf{
+        width:100% ;
+        position:absolute;
+        display: flex;
+        top: 25em;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+      
+    }
+    #loginf{
+        
+        display: flex;
+        font-size: 15pt;
+        justify-content: center;
+        text-decoration: none;
+        color: #0c0c0c;
+       
+       
+    }
+    #loginf a{
+        text-decoration: none;
+       
+    }
+    #cadastrof{
+        margin: auto;
+        width: 50%;
+        font-size: 12pt;
+        margin-top: 20px;
+        display: flex;
+        background-color: #ffffff00;
+        border-radius: 13px;
+        height: 2em;
+        padding: 2%;
+        justify-content: center;
+        text-decoration: none;
+
+    }
+    #ti{
+        text-decoration: none;
+       
+        
+    }
+    /* parte do hamburque */
     #ham{
         position: relative;
         top:-2.7em; left: 65em;
@@ -162,26 +220,45 @@
         transition: .3s;
         
     }
-    #menuul{
+        #menuul{
         position: absolute;
         display: block;
         list-style: none;
         margin-left: 20vw;
-        margin-top: -50px;
-        width: 50vh;
+        margin-top: -53.7px;
+        width: 60vh;
         border-radius:10px;
         background-color: rgb(255, 255, 255);
-        transition: .6s;
         height: 0;
+        transition: .6s;
         visibility: hidden;
         overflow-y: hidden;
         
         }
-    
-     #menuul li{
+    #Partelog{
         display: block;
-        background-color: red;
-     } 
+        position:absolute;
+        bottom: 40%;
+        text-decoration: none;
+        justify-content: center;
+        margin-left: 40%;
+    }
+    #Partelog a{
+        justify-content: center;
+        color: black;
+        text-decoration: none;
+        display: flex;
+    }
+    #Partelo::after{
+        
+    }    
+    .menu.active #Partelog{
+        visibility: visible;
+        
+      }
+           
+    
+    
 }
 
 @media (max-width : 530px) {

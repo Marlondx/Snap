@@ -2,7 +2,8 @@
 import style from "./nave.css"
 import { AiOutlineDown } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
-import menu from '../../images/icon-menu.svg'
+
+
 
 
 
@@ -22,7 +23,7 @@ function cotmobile() {
 }
 
 
-function Nave(params) {
+function Nave(params, to, entrar, registra) {
 
     return (
         <div className={style}>
@@ -32,7 +33,18 @@ function Nave(params) {
 
 
             <nav className="menu">
+
+
+
+
                 <ul id="menuul">
+
+                    <div className="logf" >
+                         <a id="loginf" href='./login'>Entrar</a>
+                        <a id="ti" href= './cadastro'><button id='cadastrof' >Cria uma Conta</button></a>
+                        
+                    </div>   
+
                     <li>
 
                         <Link to="#"> Recursos  <AiOutlineDown className="ma" /> </Link>
@@ -79,7 +91,7 @@ function Nave(params) {
             {/* para  Mobile */}
 
             <button onClick={cotmobile} id="res"> <span id="ham"></span> </button>
-         
+
 
         </div>
 

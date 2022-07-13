@@ -1,45 +1,32 @@
-#navemenu{
+.navermenu1{
+    float: left;
     display: flex;
+    width: 5%;
+    margin:2% 0 0 2%;
+  
 }
-.login {
-    position: absolute;
-    margin: 2.5%;
+.loginA {
+    display: flex;
+    justify-content: space-around; 
+    
+    margin: 2.7%;
+    width: 5em;
+    
 
 }
 
-.login a {
+.loginA a {
     color: black;
     text-decoration: none;
 
 }
 
-.cadastro {
-    font-size: 12pt;
-    text-align: center;
-    width: 9%;
-    position: absolute;
-    margin:1.5% 0 0 9%;
-    border-width: 0%;
-    height: 4%;
-    border: solid 2px;
-    border-color: rgb(116, 116, 116);
-    border-radius: 17px;
-    padding-top: 15px;
-}
-@media (max-width:1366px) {
-    .cadastro {
-        font-size: 10pt;
-       
-    }
-}
-.cadastro a{
-    color: black;
-    text-decoration: none;
-}
+
 /* Estilizado celular */
 @media (max-width:600px){
-    #navmenu{
-        display: none;
+    .navermenu1{
+     display: none;
     }
 
+  
 }

@@ -1,9 +1,9 @@
-import Login from "../elementos/login"
 import mobile from "../../images/image-hero-mobile.png"
 import style from "./home.css"
 import fto from "../../images/image-hero-desktop.png"
 import Button from "../elementos/butao"
-
+import Login from "../elementos/login"
+import Catras from "../elementos/cadastrohe"
 
 function Home(params) {
 
@@ -14,8 +14,8 @@ function Home(params) {
       </div>
       <nav className="naveLogin">
 
-        <Login to='./login' text='Entrar' />
-        <Login to='./cadastro' texto='Cria uma Conta' />
+                    <Login to='./login' text='Entrar'/>
+                    <Catras to='./cadastro' texto='Cria uma Conta' />
 
         <br />
       </nav>
